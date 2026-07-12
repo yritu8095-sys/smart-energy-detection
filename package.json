@@ -1,0 +1,14 @@
+{
+  "name": "energy-theft-detection",
+  "version": "1.0.0",
+  "description": "Smart Energy Theft Detection System - Vidyut Suraksha",
+  "main": "index.js",
+  "scripts": {
+    "start": "python3 -m http.server 3000 --directory dist",
+    "build": "node build.js",
+    "dev": "python3 -m http.server 8080 --directory ."
+  },
+  "keywords": ["energy", "theft", "detection", "smart-meter", "india"],
+  "author": "Vidyut Suraksha Team",
+  "license": "MIT"
+}
